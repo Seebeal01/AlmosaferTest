@@ -1,36 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T21:50:33 EET" name="Default suite" finished-at="2024-08-14T21:50:38 EET" duration-ms="4364">
+  <suite started-at="2024-08-19T19:23:56 EET" name="Default suite" finished-at="2024-08-19T19:24:17 EET" duration-ms="20520">
     <groups>
     </groups>
-    <test started-at="2024-08-14T21:50:33 EET" name="Default test" finished-at="2024-08-14T21:50:38 EET" duration-ms="4364">
+    <test started-at="2024-08-19T19:23:56 EET" name="Default test" finished-at="2024-08-19T19:24:17 EET" duration-ms="20520">
       <class name="almosaferProject.FinallTest">
-        <test-method is-config="true" signature="mytest()[pri:0, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:33 EET" name="mytest" finished-at="2024-08-14T21:50:37 EET" duration-ms="3773" status="PASS">
+        <test-method is-config="true" signature="mytest()[pri:0, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:23:56 EET" name="mytest" finished-at="2024-08-19T19:24:00 EET" duration-ms="3876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method signature="CheckQitagLogo()[pri:0, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:37 EET" name="CheckQitagLogo" finished-at="2024-08-14T21:50:37 EET" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckQitagLogo -->
-        <test-method signature="checkHotel()[pri:0, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:37 EET" name="checkHotel" finished-at="2024-08-14T21:50:37 EET" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHotel -->
-        <test-method signature="testAlmosaferDefaultLanguageisEN()[pri:1, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:37 EET" name="testAlmosaferDefaultLanguageisEN" finished-at="2024-08-14T21:50:37 EET" duration-ms="30" status="PASS">
+        <test-method signature="testAlmosaferDefaultLanguageisEN()[pri:1, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="testAlmosaferDefaultLanguageisEN" finished-at="2024-08-19T19:24:00 EET" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAlmosaferDefaultLanguageisEN -->
-        <test-method signature="CheckdefaultCurrencyisSAR()[pri:2, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:37 EET" name="CheckdefaultCurrencyisSAR" finished-at="2024-08-14T21:50:37 EET" duration-ms="41" status="PASS">
+        <test-method signature="CheckdefaultCurrencyisSAR()[pri:2, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckdefaultCurrencyisSAR" finished-at="2024-08-19T19:24:00 EET" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckdefaultCurrencyisSAR -->
-        <test-method signature="CheckContactNumber()[pri:3, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-14T21:50:37 EET" name="CheckContactNumber" finished-at="2024-08-14T21:50:38 EET" duration-ms="289" status="PASS">
+        <test-method signature="CheckContactNumber()[pri:3, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckContactNumber" finished-at="2024-08-19T19:24:00 EET" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckContactNumber -->
+        <test-method signature="CheckQitagLogo()[pri:4, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckQitagLogo" finished-at="2024-08-19T19:24:00 EET" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQitagLogo -->
+        <test-method signature="checkHotel()[pri:5, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:01 EET" name="checkHotel" finished-at="2024-08-19T19:24:01 EET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotel -->
+        <test-method signature="test()[pri:7, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:01 EET" name="test" finished-at="2024-08-19T19:24:05 EET" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="HotelSearchBox()[pri:8, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:05 EET" name="HotelSearchBox" finished-at="2024-08-19T19:24:05 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchBox -->
+        <test-method signature="searchButton()[pri:9, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:05 EET" name="searchButton" finished-at="2024-08-19T19:24:17 EET" duration-ms="11888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButton -->
       </class> <!-- almosaferProject.FinallTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

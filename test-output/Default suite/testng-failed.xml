@@ -5,8 +5,8 @@
     <classes>
       <class name="almosaferProject.FinallTest">
         <methods>
-          <include name="testAlmosaferAssertions"/>
           <include name="mytest"/>
+          <include name="HotelSearchBox"/>
         </methods>
       </class> <!-- almosaferProject.FinallTest -->
     </classes>
