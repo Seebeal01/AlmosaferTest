@@ -1,48 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-19T19:23:56 EET" name="Default suite" finished-at="2024-08-19T19:24:17 EET" duration-ms="20520">
+  <suite started-at="2024-09-10T23:11:51 EET" name="Default suite" finished-at="2024-09-10T23:12:22 EET" duration-ms="30877">
     <groups>
     </groups>
-    <test started-at="2024-08-19T19:23:56 EET" name="Default test" finished-at="2024-08-19T19:24:17 EET" duration-ms="20520">
+    <test started-at="2024-09-10T23:11:51 EET" name="Default test" finished-at="2024-09-10T23:12:22 EET" duration-ms="30877">
       <class name="almosaferProject.FinallTest">
-        <test-method is-config="true" signature="mytest()[pri:0, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:23:56 EET" name="mytest" finished-at="2024-08-19T19:24:00 EET" duration-ms="3876" status="PASS">
+        <test-method is-config="true" signature="mytest()[pri:0, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:51 EET" name="mytest" finished-at="2024-09-10T23:11:56 EET" duration-ms="5052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method signature="testAlmosaferDefaultLanguageisEN()[pri:1, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="testAlmosaferDefaultLanguageisEN" finished-at="2024-08-19T19:24:00 EET" duration-ms="90" status="PASS">
+        <test-method signature="testAlmosaferDefaultLanguageisEN()[pri:1, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:56 EET" name="testAlmosaferDefaultLanguageisEN" finished-at="2024-09-10T23:11:56 EET" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAlmosaferDefaultLanguageisEN -->
-        <test-method signature="CheckdefaultCurrencyisSAR()[pri:2, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckdefaultCurrencyisSAR" finished-at="2024-08-19T19:24:00 EET" duration-ms="71" status="PASS">
+        <test-method signature="CheckdefaultCurrencyisSAR()[pri:2, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:56 EET" name="CheckdefaultCurrencyisSAR" finished-at="2024-09-10T23:11:56 EET" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckdefaultCurrencyisSAR -->
-        <test-method signature="CheckContactNumber()[pri:3, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckContactNumber" finished-at="2024-08-19T19:24:00 EET" duration-ms="44" status="PASS">
+        <test-method signature="CheckContactNumber()[pri:3, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:56 EET" name="CheckContactNumber" finished-at="2024-09-10T23:11:56 EET" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckContactNumber -->
-        <test-method signature="CheckQitagLogo()[pri:4, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:00 EET" name="CheckQitagLogo" finished-at="2024-08-19T19:24:00 EET" duration-ms="98" status="PASS">
+        <test-method signature="CheckQitagLogo()[pri:4, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:56 EET" name="CheckQitagLogo" finished-at="2024-09-10T23:11:56 EET" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckQitagLogo -->
-        <test-method signature="checkHotel()[pri:5, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:01 EET" name="checkHotel" finished-at="2024-08-19T19:24:01 EET" duration-ms="149" status="PASS">
+        <test-method signature="checkHotel()[pri:5, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:56 EET" name="checkHotel" finished-at="2024-09-10T23:11:57 EET" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHotel -->
-        <test-method signature="test()[pri:7, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:01 EET" name="test" finished-at="2024-08-19T19:24:05 EET" duration-ms="4112" status="PASS">
+        <test-method signature="CheckDepatureDate()[pri:6, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:57 EET" name="CheckDepatureDate" finished-at="2024-09-10T23:11:57 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDepatureDate -->
+        <test-method signature="test()[pri:7, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:57 EET" name="test" finished-at="2024-09-10T23:11:59 EET" duration-ms="1962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="HotelSearchBox()[pri:8, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:05 EET" name="HotelSearchBox" finished-at="2024-08-19T19:24:05 EET" duration-ms="76" status="PASS">
+        <test-method signature="FillHotelTab()[pri:8, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:11:59 EET" name="FillHotelTab" finished-at="2024-09-10T23:12:01 EET" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillHotelTab -->
+        <test-method signature="HotelSearchBox()[pri:9, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:12:01 EET" name="HotelSearchBox" finished-at="2024-09-10T23:12:01 EET" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSearchBox -->
-        <test-method signature="searchButton()[pri:9, instance:almosaferProject.FinallTest@757d6814]" started-at="2024-08-19T19:24:05 EET" name="searchButton" finished-at="2024-08-19T19:24:17 EET" duration-ms="11888" status="PASS">
+        <test-method signature="searchButton()[pri:10, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:12:01 EET" name="searchButton" finished-at="2024-09-10T23:12:07 EET" duration-ms="5792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchButton -->
+        <test-method signature="CheckThePageFullyLoaded()[pri:11, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:12:07 EET" name="CheckThePageFullyLoaded" finished-at="2024-09-10T23:12:20 EET" duration-ms="13648" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at almosaferProject.FinallTest.CheckThePageFullyLoaded(FinallTest.java:163)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThePageFullyLoaded -->
+        <test-method signature="SortItemsLowestToHighestPrice()[pri:12, instance:almosaferProject.FinallTest@373ebf74]" started-at="2024-09-10T23:12:20 EET" name="SortItemsLowestToHighestPrice" finished-at="2024-09-10T23:12:22 EET" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortItemsLowestToHighestPrice -->
       </class> <!-- almosaferProject.FinallTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

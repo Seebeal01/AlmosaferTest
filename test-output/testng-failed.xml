@@ -6,7 +6,7 @@
       <class name="almosaferProject.FinallTest">
         <methods>
           <include name="mytest"/>
-          <include name="HotelSearchBox"/>
+          <include name="CheckThePageFullyLoaded"/>
         </methods>
       </class> <!-- almosaferProject.FinallTest -->
     </classes>

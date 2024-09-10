@@ -13,21 +13,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class FinallTest {
-	WebDriver driver = new ChromeDriver();
-	String AlmosaferURL = "https://global.almosafer.com/en";
-	String ExpectedDefaultLanage = "en";
-
-	Random rand = new Random();
+public class FinallTest extends Parameters {
 
 	@BeforeTest
 	public void mytest() {
-
-		driver.manage().window().maximize();
-		driver.get(AlmosaferURL);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		GeneralSetup();
 		driver.findElement(By.cssSelector(".sc-jTzLTM.hQpNle.cta__button.cta__saudi.btn.btn-primary")).click();
-
 	}
 
 	@Test(priority = 1)
@@ -40,19 +31,16 @@ public class FinallTest {
 
 	@Test(priority = 2)
 	public void CheckdefaultCurrencyisSAR() {
-		String ExpectedCurrency = "SAR";
-		WebElement Currency = driver.findElement(By.xpath("//button[@data-testid='Header__CurrencySelector']"));
 
-		String ActualCurrency = Currency.getText();
-
+		String ActualCurrency = driver.findElement(By.xpath("//button[@data-testid='Header__CurrencySelector']"))
+				.getText();
 		Assert.assertEquals(ActualCurrency, ExpectedCurrency);
 	}
 
 	@Test(priority = 3)
 	public void CheckContactNumber() {
-		String ExpectedContactNumber = "+966554400000";
-		String ActualContactNumber = driver.findElement(By.tagName("strong")).getText();
 
+		String ActualContactNumber = driver.findElement(By.tagName("strong")).getText();
 		Assert.assertEquals(ActualContactNumber, ExpectedContactNumber);
 	}
 
@@ -72,8 +60,8 @@ public class FinallTest {
 
 	@Test(priority = 5)
 	public void checkHotel() {
-		WebElement HotelTab = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"));
-		String ActualSelectAreaValue = HotelTab.getAttribute("aria-selected");
+		String ActualSelectAreaValue = driver.findElement(By.id("uncontrolled-tab-example-tab-hotels"))
+				.getAttribute("aria-selected");
 		String ExpectedSelectAreaValue = "false";
 		Assert.assertEquals(ActualSelectAreaValue, ExpectedSelectAreaValue);
 
@@ -82,10 +70,7 @@ public class FinallTest {
 	@Test(priority = 6)
 	public void CheckDepatureDate() {
 
-		LocalDate todayDate = LocalDate.now();
-
-		int Tomorrow = todayDate.plusDays(1).getDayOfMonth();
-		int ThedayAfterTomorrow = todayDate.plusDays(2).getDayOfMonth();
+	
 
 		List<WebElement> depatureAndArrivalDates = driver.findElements(By.className("LiroG"));
 
